@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>
             TEST
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--Halaman Header Website-->
         <header>
-            <img src="images/Kota Tangerang Logo.png" width="150px" alt="KotaTangerang">
-            <h1>
-                Kota Tangerang
-            </h1>
-            <p>
-                Tangerang (bahasa Sunda: aksara Sunda) adalah kota yang terletak di Provinsi Banten, Indonesia. 
-                Kota ini terletak tepat di sebelah barat kecamatan Cengkareng, Jakarta Barat.
-                <br>Suku aslinya adalah Suku Sunda Banten. Tangerang merupakan kota terbesar di Provinsi Banten serta 
-                ketiga terbesar di kawasan Jabodetabek setelah Bekasi dan Depok. 
-            </p>
+            <div class="jumbotron">
+                <img src="images/Kota Tangerang Logo.png" class="image-header" alt="KotaTangerang">
+                <h1>
+                    Kota Tangerang
+                </h1>
+                <p class="p-jumbotron">
+                    Tangerang adalah kota yang terletak di Provinsi Banten, Indonesia.
+                    Suku aslinya adalah Suku Sunda Banten. Tangerang merupakan kota terbesar di Provinsi Banten serta 
+                    ketiga terbesar di kawasan Jabodetabek setelah Bekasi dan Depok. 
+                </p>
+            </div>
             <nav>
                 <ul>
-                    <li><h1><a href="#sejarah">Sejarah</a></h2></li>
-                    <li><h1><a href="#geografi">Geografi</a></h2></li>
-                    <li><h1><a href="#ekonomi">Ekonomi</a></h2></li>
-                    <li><h1><a href="#olahraga">Tempat Olahraga</a></h2></li>
+                    <li>
+                        <a href="#sejarah">
+                            Sejarah
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#geografi">
+                            Geografi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ekonomi">
+                            Ekonomi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#olahraga">
+                            Tempat Olahraga
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -34,11 +53,11 @@
         <main>
             <div id="content">
                 <!--Sejarah Kota Tangerang-->
-                <article id="sejarah">
+                <article id="sejarah" class="cards">
                     <h2>
                         Sejarah
                     </h2>
-                    <img src="images/Sejarah Kota Tangerang.jpeg" width="290px" alt="Sejarah">
+                    <img src="images/Sejarah Kota Tangerang.jpeg" class="featured-images" alt="Sejarah">
                     <p>
                         Berdirinya Kota Tangerang tidak lepas dari sejarah perjuangan Kesultanan Banten melawan Kolonialisme 
                         Belanda. Nama “Tangerang” yang menunjuk kepada suatu daerah yang berada di bantaran sungai Cisadane, 
@@ -55,11 +74,11 @@
                 <!--Akhir Informasi Konten Sejarah Kota Tangerang-->
             
                 <!--Informasi Geografi Kota Tangerang-->
-                <article id="geografi">
+                <article id="geografi" class="cards">
                     <h2>
                         Geografi
                     </h2>
-                    <img src="images/Geografi Kota Tangerang.jpg" width="290px" alt="Geografi">
+                    <img src="images/Geografi Kota Tangerang.jpg" class="featured-images" alt="Geografi">
                     <p>
                         Kota Tangerang terletak di wilayah barat laut Provinsi Banten dan berada di sisi utara Pulau Jawa.
                         Secara astronomis, kota ini terletak 106°33' - 106°44' BT dan 6°05'-6°15 LS. 
@@ -75,11 +94,10 @@
                 <!--Akhir Informasi Konten Geografi Kota Tangerang-->
             
                 <!--Konten Ekonomi Kota Tangerang-->
-                <article id="ekonomi">
+                <article id="ekonomi" class="cards">
                     <h2>
                         Ekonomi
                     </h2>
-                    <img src="images/Ekonomi.jpg" width="290px" alt="Ekonomi">
                     <p>
                         Tangerang adalah pusat manufaktur dan industri di Pulau Jawa dan memiliki lebih dari 1000 pabrik. 
                         Banyak perusahaan-perusahaan Internasional yang memiliki pabrik di kota ini. 
@@ -99,15 +117,15 @@
                 <!--Akhir Informasi Konten Ekonomi Kota Tangerang-->
             
                 <!--Tempat Olahraga di Kota Tangerang-->
-                <article id="olahraga">
+                <article id="olahraga" class="cards">
                     <h2>
                         Tempat Olahraga
                     </h2>
                     <section>
-                        <h3>
+                        <h4>
                             Stadion Benteng
-                        </h3>
-                        <img src="images/Stadion Benteng.jpg" width="290px" alt="StadionBenteng">
+                        </h4>
+                        <img src="images/Stadion Benteng.jpg" class="featured-images" alt="StadionBenteng">
                         <p>
                             Stadion Benteng adalah stadion yang terletak di Tangerang, Banten. Stadion ini 
                             dipergunakan untuk menggelar pertandingan sepak bola dan merupakan kandang dari 2 tim asal Tangerang, 
@@ -116,10 +134,10 @@
                     </section>
         
                     <section>
-                        <h3>
+                        <h4>
                             Alun-Alun Kota Tangerang
-                        </h3>
-                        <img src="images/Alun-alun Kota Tangerang.jpg" width="290px" alt="Alun-alun">
+                        </h4>
+                        <img src="images/Alun-alun Kota Tangerang.jpg" class="featured-images" alt="Alun-alun">
                         <p>
                            Alun-Alun Kota Tangerang kini dikenal juga dengan nama Alun Alun Ahmad Yani. 
                             Terletak di Jalan Insinyur Haji Juanda, Tangerang, tempat ini jadi salah satu tempat yang favorit 
@@ -133,10 +151,10 @@
                     </section>
         
                     <section>
-                        <h3>
+                        <h4>
                             Gor Dimyati
-                        </h3>
-                        <img src="images/Gor Dimyati.jpg" width="290px" alt="GorDimyati">
+                        </h4>
+                        <img src="images/Gor Dimyati.jpg" class="featured-images" alt="GorDimyati">
                         <p>
                             Gedung Olahraga (GOR) Dimyati terletak di Jalan A Dimyati, Sukasari, Tangerang. 
                             Gedung ini biasanya digunakan untuk event olahraga seperti DBL Tangerang, Smanitra Cup, Dll.
@@ -145,13 +163,18 @@
                 </article>
                 <!--Akhir Informasi Tempat Olahraga Kota Tangerang-->
             </div>
+
             <aside>
-                <article class="profile">
+                <article class="profile cards">
                     <header>
-                        <h2>Kota Tangerang</h2>
-                        <p>Kota Laksa</p>
+                        <h2>
+                            Kota Tangerang
+                        </h2>
+                        <p>
+                            Kota Laksa
+                        </p>
                         <figure>
-                            <img src="images/Jembatan Kota Tangerang.jpg" width="290px" alt="Jembatan">
+                            <img src="images/Jembatan Kota Tangerang.jpg" class="img" alt="Jembatan">
                             <figcaption>Jembatan Kota Tangerang</figcaption>
                         </figure>
                     </header>
@@ -175,10 +198,6 @@
                             <tr>
                                 <th>Bahasa</th>
                                 <td>Indonesia atau Sunda</td>
-                            </tr>
-                            <tr>
-                                <th>Kode Telepon</th>
-                                <td>+62</td>
                             </tr>
                         </table>
                     </section>
