@@ -11,7 +11,7 @@ Curabitur eros libero, posuere id ornare in, lobortis id nunc. Suspendisse poten
 tempor vel lectus id, faucibus gravida mauris. Aliquam ut mi vitae enim iaculis rutrum quis eget nibh.
 */
 
-let user = {
+/*let user = {
     namaLengkap: "Eka Pramudianzah",
     namaPanggilan: "Eka", 
     umur: 22, 
@@ -26,3 +26,41 @@ console.log("Umur saya " + user.umur + " tahun" + " dan Tinggi Badan saya " + us
 Hallo, nama saya Harry Potter
 Umur saya 20 tahun
 */
+
+// Looping Statement
+/*for (let i = 0; i < 20; i++){
+    console.log("Iterasi " + i);
+} */
+
+
+/*let myArray = ["Harry", "Ron", "Hermione", "Tom"];
+
+for(const arrayItem of myArray) {
+    console.log(arrayItem);
+}*/
+
+/*function greeting(name, language) {
+    if(language === "English") {
+        console.log("Good Morning " + name + "!");
+    } else if (language === "French") {
+        console.log("Bonjour " + name + "!");
+    } else {
+        console.log("Selamat Pagi " + name + "!");
+    }
+}
+
+greeting("Eka Pramudianzah", "English");
+
+/* output
+Bonjour Harry!
+*/
+
+// Strict
+/*x = 9;       // ini tidak dianggap error karena tidak kena mode Strict
+showAngka();   // ini tidak dianggap error karena tidak kena mode Strict
+ 
+function showAngka() {
+  "use strict";
+   x = 9; // ini akan dianggap error karena variabel belum dideklarasikan
+  alert(x);
+}*/
