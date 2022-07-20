@@ -7,8 +7,10 @@
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="style.css">
+        <script src="website_lampung.js"></script>
     </head>
     <body>
+        
         <!--Halaman Header Website-->
         <header>
             <div class="jumbotron">
@@ -43,14 +45,23 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#pariwisata">
-                            Pariwisata
-                        </a>
+                        <div class="dropdown">
+                            <button onclick="FunctionPariwisata()" class="dropbtnpariwisata">Pariwisata</button>
+                            <div id="DropdownPariwisata" class="dropdown-pariwisata">
+                                <a href="#pasir_putih">Pantai Pasir Putih</a>
+                                <a href="#way_kambas">Way Kambas</a>
+                                <a href="#pahawang">Pulau Pahawang</a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a href="#senibudaya">
-                            Budaya
-                        </a>
+                        <div class="dropdown">
+                            <button onclick="FunctionBudaya()" class="dropbtnbudaya">Budaya</button>
+                            <div id="DropdownBudaya" class="dropdown-budaya">
+                                <a href="#tapis_lampung">Tapis Lampung</a>
+                                <a href="#tari_sigeh">Tari Sigeh Pengunten</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -138,7 +149,7 @@
                         Pariwisata
                     </h2>
                     <section>
-                        <h4>
+                        <h4 id="pasir_putih">
                             Pantai Pasir Putih
                         </h4>
                         <img src="Images/Pantai Pasir Putih.jpg" class="featured-images" alt="pantai_pasir_putih">
@@ -154,7 +165,7 @@
                     </section>
         
                     <section>
-                        <h4>
+                        <h4 id="way_kambas">
                             Taman Nasional Way Kambas
                         </h4>
                         <img src="Images/Way Kambas.jpg" class="featured-images" alt="taman_nasional">
@@ -176,7 +187,7 @@
                     </section>
         
                     <section>
-                        <h4>
+                        <h4 id="pahawang">
                             Pulau Pahawang
                         </h4>
                         <img src="Images/Pulau Pahawang.jpg" class="featured-images" alt="pulau_pahawang">
@@ -200,10 +211,10 @@
                 <!-- Awal dari konten Seni dan Budaya-->
                 <article id="senibudaya" class="cards">
                     <h2>
-                        Seni dan Budaya
+                        Seni Budaya
                     </h2>
                     <section>
-                        <h4>
+                        <h4 id="tapis_lampung">
                             Tapis Lampung
                         </h4>
                         <img src="Images/Tapis Lampung.jpg" class="featured-images" alt="tapis_lampung">
@@ -228,7 +239,7 @@
                     </section>
         
                     <section>
-                        <h4>
+                        <h4 id="tari_sigeh">
                             Tari Sigeh Pengunten
                         </h4>
                         <img src="Images/Tari Sigeh Pengunten.jpg" class="featured-images" alt="tari">
@@ -248,14 +259,16 @@
                 <article class="profile cards">
                     <header>
                         <h2>
-                            Provinsi Lampung
+                            Eka pramudianzah
                         </h2>
                         <p>
-                            Kota Laksa
+                           Bergabung sejak 14 Maret 2020
+                           
+                           <br>Kabupaten Tangerang, Banten
                         </p>
                         <figure>
-                            <img src="#" class="img" alt="Jembatan">
-                            <figcaption>Jembatan Provinsi Lampung</figcaption>
+                            <img src="Images/My Profile.jpeg" class="img" alt="profile">
+                            <figcaption>Image Profile</figcaption>
                         </figure>
                     </header>
                     <section>
@@ -268,16 +281,16 @@
                                 <td>Indonesia</td>
                             </tr>
                             <tr>
-                                <th>Hari Jadi</th>
-                                <td>18 Oktober 2001</td>
+                                <th>Pekerjaan</th>
+                                <td>Mahasiswa, Freelanceer</td>
                             </tr>
                             <tr>
-                                <th>Luas Total</th>
-                                <td>±153,9 km²</td>
+                                <th>Kampus</th>
+                                <td>Universitas Mercu Buana</td>
                             </tr>
                             <tr>
-                                <th>Bahasa</th>
-                                <td>Indonesia atau Sunda</td>
+                                <th>Pendidikan</th>
+                                <td>Teknik Informatika</td>
                             </tr>
                         </table>
                     </section>
@@ -288,8 +301,10 @@
 
         <!--Halaman Footer Website-->
         <footer>
-            <p>&copy; 2022, Website Pemerintah Provinsi Lampung</p>
+            <p>
+                &copy; 2022, Website Semantic Pemerintah Provinsi Lampung
+            </p>
         </footer>
-        <!--Akhir Halaman Footer Website-->
+        <!--Akhir Halaman Footer Website-->          
     </body>
 </html>
