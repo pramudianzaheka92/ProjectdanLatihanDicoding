@@ -49,7 +49,7 @@ nav{
     padding: 5px;
     position: sticky;
     overflow: visible;
-    height: 200px;
+    height: auto;
     top: 0;
 }
 
@@ -81,6 +81,11 @@ nav li{
 
 .dropbtnpariwisata:hover, .dropbtnpariwisata:focus {
     font-weight: bold;
+}
+
+.dropdownPariwisata {
+    position: relative;
+    display: inline-block;
 }
 
 .dropbtnpariwisata{
@@ -121,6 +126,11 @@ nav li{
 
 .dropbtnbudaya:hover, .dropbtnbudaya:focus {
     font-weight: bold;
+}
+
+.dropdownBudaya {
+    position: relative;
+    display: inline-block;
 }
 
 .dropbtnbudaya{

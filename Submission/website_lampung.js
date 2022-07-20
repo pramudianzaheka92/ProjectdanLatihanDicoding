@@ -4,17 +4,13 @@ function FunctionPariwisata() {
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) 
-{
-    if (!event.target.matches('.dropbtnpariwisata')) 
-    {
+window.onclick = function(event) {
+    if (!event.target.matches(".dropbtnpariwisata")) {
         var dropdowns = document.getElementsByClassName("dropdown-pariwisata");
         var i;
-        for (i = 0; i < dropdowns.length; i++) 
-        {
+        for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains("show-pariwisata")) 
-            {
+            if (openDropdown.classList.contains("show-pariwisata")) {
                 openDropdown.classList.remove("show-pariwisata");
             }
         }
@@ -26,17 +22,13 @@ function FunctionBudaya() {
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) 
-{
-    if (!event.target.matches('.dropbtnbudaya')) 
-    {
+window.onclick = function(event) {
+    if (!event.target.matches(".dropbtnbudaya")) {
         var dropdowns = document.getElementsByClassName("dropdown-budaya");
         var i;
-        for (i = 0; i < dropdowns.length; i++) 
-        {
+        for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains("show-budaya")) 
-            {
+            if (openDropdown.classList.contains("show-budaya")) {
                 openDropdown.classList.remove("show-budaya");
             }
         }
