@@ -39,7 +39,7 @@ h1{
 
 .p-jumbotron{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: small;
+    font-size: 15px;
     text-align: center;
     display: flex;
 }
@@ -70,11 +70,12 @@ nav li{
 }
 
 .dropbtnpariwisata{
-    background-color:  rgba(2, 138, 43, 0.973);
-    color: white;
+    background-color: transparent;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
     padding: 5px;
     font-size: 17px;
+    font-weight: 400;
     border: none;
     cursor: pointer;
 }
@@ -115,11 +116,12 @@ nav li{
 }
 
 .dropbtnbudaya{
-    background-color:  rgba(2, 138, 43, 0.973);
-    color: white;
+    background-color: transparent;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
     padding: 5px;
     font-size: 17px;
+    font-weight: 400;
     border: none;
     cursor: pointer;
 }
